@@ -1,0 +1,12 @@
+.turn {
+  transform: rotate(45deg);
+  color: red;
+}
+
+.turn-and-caps {
+  transform: rotate(-45deg);
+  color: red;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */

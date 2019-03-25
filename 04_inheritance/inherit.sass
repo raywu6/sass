@@ -1,0 +1,13 @@
+=turn($degrees)
+    transform: rotate($degrees)
+    color: red
+
+%uniform-turn
+    +turn(-45deg)
+    
+.turn
+    @extend %uniform-turn
+
+.turn-and-caps
+    @extend %uniform-turn
+    text-transform: uppercase

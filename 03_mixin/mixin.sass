@@ -1,0 +1,10 @@
+=turn($degrees)
+    transform: rotate($degrees)
+    color: red
+
+.turn
+    +turn(45deg)
+
+.turn-and-caps
+    +turn(-45deg)
+    text-transform: uppercase
